@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@android:color/white"
+    android:orientation="vertical" >
+       
+     <TextView 
+         android:id="@+id/tv_select_file"
+         android:layout_width="fill_parent"
+         android:layout_height="35dip"
+         android:textColor="#606060"
+         android:textSize="20sp"
+         
+        />  
+    <View 
+         android:layout_width="fill_parent"
+         android:layout_height="1dip"  
+         android:background="@android:color/background_dark"
+        />
+    <TextView 
+         android:id="@+id/tv_select_oper"
+         android:layout_width="fill_parent"
+         android:layout_height="35dip"
+         android:textColor="#606060"
+         android:textSize="20sp"
+         android:layout_marginBottom="5dip"
+        />
+
+</LinearLayout>

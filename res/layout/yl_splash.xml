@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/version"
+    android:gravity="center"
+    android:orientation="vertical"
+    
+     >
+
+ <!--   <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:scaleType="centerInside"
+        android:src="@drawable/id_log" >
+    </ImageView>
+   
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="bottom"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="@string/app_name"
+        android:textColor="#444444"
+        android:textSize="22dip"
+        android:typeface="serif" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="bottom"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="@string/splash_detail_01"
+        android:textColor="#444444"
+        android:textSize="18dip"
+        android:typeface="serif" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/versionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="bottom"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="@string/splash_detail_02"
+        android:textColor="#444444"
+        android:textSize="18dip"
+        android:typeface="serif" >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="bottom"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="@string/splash_detail_03"
+        android:textColor="#444444"
+        android:textSize="16dip"
+        android:typeface="serif" >
+    </TextView>  -->
+
+</LinearLayout>

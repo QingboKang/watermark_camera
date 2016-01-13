@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CopyrightActivity"
+    android:background="@color/about_background" >
+
+    <TextView
+        android:id="@+id/tvAboutAppName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" 
+        android:minHeight="36sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="14sp"
+        android:textColor="@color/about_textcolor"/>
+    
+    <View  
+        android:id="@+id/viewLine"
+        android:layout_height="1dp" 
+        android:layout_width="fill_parent"
+        android:layout_below="@id/tvAboutAppName"
+        android:background="@color/about_linecolor"></View>
+    
+    <TextView 
+        android:id="@+id/tvAboutAppContent"
+        android:layout_below="@id/viewLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="14sp"
+        android:layout_marginRight="10sp"
+        android:autoLink="web"
+        android:textColor="@color/about_textcolor" />
+    
+    <View  
+        android:id="@+id/viewLine02"
+        android:layout_height="1dp" 
+        android:layout_width="fill_parent"
+        android:layout_below="@id/tvAboutAppContent"
+        android:layout_marginTop="8sp"
+        android:background="@color/about_linecolor"></View>
+     <TextView
+        android:id="@+id/tvAboutAppCopyright"
+        android:layout_below="@id/viewLine02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" 
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="14sp"
+        android:layout_marginRight="10sp"
+        android:textColor="@color/about_textcolor"/>
+     <TextView 
+        android:id="@+id/tvAboutAppCopyrightEng"
+        android:layout_below="@id/tvAboutAppCopyright"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" 
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textColor="@color/about_textcolor" />
+     
+
+</RelativeLayout>

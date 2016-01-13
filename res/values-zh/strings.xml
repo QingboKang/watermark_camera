@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">数字水印相机</string>
+    <string name="splash_detail_01"></string>
+    <string name="splash_detail_02">版本号:</string>
+    <string name="splash_detail_03">成都宇飞信息工程有限责任公司</string>
+    <string name="insert_text">  文  本  </string>
+    <string name="insert_audio">  音  频  </string>
+    <string name="insert_video">  视  频  </string>
+    <string name="insert_image">  图  像  </string>
+    <string name="please_select_oper_way">请选择隐藏模式：</string>
+    <string name="select_pic">选择图库</string>
+    <string name="select_camera">选择拍照</string>
+    <string name="select_text">请选择一个要隐藏的文件</string>
+    <string name="please_select_fileManager">请安装文件管理器</string>
+    <string name="please_select_text">请选择.txt的文本文件</string>
+    <string name="success">操作成功</string>
+    <string name="select_audio">选择音频文件</string>
+    <string name="select_recoding">选择录音</string>
+    <string name="please_select_way"></string>
+    <string name="select_video">选择视频文件</string>
+    <string name="select_shoot_video">拍摄视频</string>
+    <string name="select_pictures">选择图像文件</string>
+    <string name="select_shoot_pic">选择拍摄</string>
+    <string name="playing">正在播放</string>
+    <string name="play_vidce">播放声音</string>
+    <string name="paly_audio">播放录音</string>
+    <string name="press_start_recoding">按住开始录音</string>
+    <string name="recoding_complete">录音完成!点击重新录音</string>
+    <string name="recoding_file_path">文件路径</string>
+    <string name="recoding_error">时间太短   录音失败</string>
+   
+    <!-- Create at 09.04 by KB -->
+    <string name="toast_text">请点击屏幕开始操作</string>
+    <string name="toast_extract_text">请点击屏幕开始提取</string>
+    <string name="toast_extract_failed">该文件不包含隐藏文件，提取失败。</string>
+    
+    <string name="embed_mode">隐藏信息</string>
+    <string name="extract_mode">提取信息</string>
+    <string name="btntext_about">关于</string>
+    <string name="extract_pic">选择提取的文件</string>
+    <string name="input_text">输入文本</string>
+    <string name="select_file_text">选择文本文件</string>
+    <string name="please_input_text">请输入隐藏的文本</string>
+    <string name="isok">确定</string>
+    <string name="start_execute">开始隐藏</string>
+    <string name="start_extract">开始提取</string>
+    <string name="picformat_title">提示</string>
+    <string name="picformat_message">该应用目前仅支持jpg格式，请重新选择!</string>
+    <string name="reset_select_img">重新选择图片</string>
+    <string name="cancle">取消</string>
+    <string name="extract_success">提取成功</string>
+    <string name="embed_success">隐藏成功</string>
+    <string name="getfile_success">获取文件成功,请选择菜单按钮进行嵌入操作！</string>
+    <string name="start_embed">是否开始进入隐藏操作 !</string>
+    <string name="text"> 点击打开文本 </string>
+    <string name="audio"> 点击打开音频 </string>
+    <string name="video"> 点击打开视频 </string>
+    <string name="image"> 点击打开图片 </string>
+    <string name="please_click_openfile">提取结果：</string>
+    <string name="not_support_audio">请选择支持的音频格式的文件 !</string>
+    <string name="not_support_video">请选择支持的视频格式的文件 !</string>
+    <string name="not_support_image">请选择支持的图片格式的文件 !</string>
+    <string name="pack_isweight">隐藏文件太大，操作失败 ！</string>
+    
+    <string name="title_activity_about">关于</string>
+    <string name="aboutapp_content">Android版适用于Android2.2及以上固件，如在其他手机上使用本软件，对于出现的任何问题，成都宇飞信息工程有限责任公司（以下简称宇飞）不承担责任。本软件是由宇飞公司开发，非经宇飞或宇飞授权开发并正式发布的其他任何由本软件衍生的软件均属非法，下载、安装、使用此类软件，将可能导致不可预知的风险，由此产生的一切法律责任与纠纷一概与宇飞无关。\n\n用户不得利用本软件发表、传送、传播、存储违反国家法律、危害国家安全、祖国统一、社会稳定的内容，或任何不当的、侮辱诽谤的、淫秽的、暴力的及任何违反国家法律法规政策的内容；不得制造虚假身份以误导、欺骗或利用本软件批量发表、传送、传播广告信息。否则，宇飞有权终止、限制用户使用该软件的功能。\n\n用户分享，发送本软件生成的图像时，产生的隐私及安全问题与本软件无关。\n\n宇飞公司官网地址：http://www.yufei.cc/</string>
+    
+    <string name="file_no_support">暂不支持此文件格式 !</string>
+    <string name="file_markness">此文件已包含水印 ，暂不支持多次嵌入 !</string>
+    <string name="input_filename_hint">请输入要保存的文件名</string>    
+    <string name="input_filename_propmt">文件默认保存为:</string>
+    <string name="explorer">Explorer</string>
+    <string name="dialog_read_from_dir">Open from dir</string>
+        <string name="action_settings">Settings</string>
+        <!-- the strings for AboutActivity. Create at 09.05 by KB -->
+    <string name="btn_help">帮助</string>
+    <string name="btn_copyright">版权</string>
+    <string name="title_activity_help">关于</string>
+    <string name="toast_toomanyfiles">隐藏的文件数量已达到最大值，无法再添加隐藏文件！</string>
+    
+    <!-- 偏光水印提取 -->
+    <string name="btn_filter">宇飞数字水印提取</string>
+    <string name="btn_savefilterimageas_text">保存</string>
+    <string name="btn_cancel_text">取消</string>
+    
+    </resources>

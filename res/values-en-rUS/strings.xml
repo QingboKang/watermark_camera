@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Watermark Camera</string>
+    <string name="splash_detail_01"></string>
+    <string name="splash_detail_02">Version:</string>
+    <string name="splash_detail_03">Chengdu Yufei Information Engineering Co.Ltd.</string>
+    <string name="insert_text">Text</string>
+    <string name="insert_audio">Audio</string>
+    <string name="insert_video">Video</string>
+    <string name="insert_image">Image</string>
+    <string name="please_select_oper_way">Please choose the hidden mode:</string>
+    <string name="select_pic">Gallery</string>
+    <string name="select_camera">Photos</string>
+    <string name="select_text">Please select a file you want to embed</string>
+    <string name="please_select_fileManager">Please install the File Manager</string>
+    <string name="please_select_text">Please select .txt text file</string>
+    <string name="success">Hide success</string>
+    <string name="select_audio">Audio File</string>
+    <string name="select_recoding">Recording</string>
+    <string name="please_select_way">Please select:</string>
+    <string name="select_video">Video File</string>
+    <string name="select_shoot_video">Shooting</string>
+    <string name="select_pictures">Image File</string>
+    <string name="select_shoot_pic">Shooting</string>
+    <string name="playing">Playing</string>
+    <string name="play_vidce">Play sound</string>
+    <string name="paly_audio">Play recording</string>
+    <string name="press_start_recoding">Press and hold to start recording</string>
+    <string name="recoding_complete">Recording finished! Click to re-record</string>
+    <string name="recoding_file_path">File Path</string>
+    <string name="recoding_error">Failed to recording</string>
+      <string name="getfile_success">Get image file success.</string>
+    <string name="start_embed">Is going to start embedding?</string>
+    
+        <!-- Create at 09.04 by KB -->
+    <string name="toast_text">Please touch the screen to operate</string>
+    <string name="toast_extract_text">Please touch the screen to start extraction</string>
+    <string name="toast_extract_failed">The file does not contain hidden files, extract failed.</string>
+    
+    <string name="embed_mode">Hidden Information</string>
+    <string name="extract_mode">Extract Information</string>
+    <string name="btntext_about">About</string>
+    <string name="extract_pic">Choose the file</string>
+    <string name="input_text">Enter text</string>
+    <string name="select_file_text">Text File</string>
+    <string name="please_input_text">Please enter the text</string>
+    <string name="isok">OK</string>
+    <string name="start_execute">Start Hidding</string>
+    <string name="start_extract">Start extracting</string>
+    <string name="picformat_title">Prompt</string>
+    <string name="picformat_message">The application currently only supports jpg, please re-select!</string>
+    <string name="reset_select_img">Re-select the picture</string>
+    <string name="cancle">Cancel</string>
+    <string name="extract_success">Extracted Success</string>
+    <string name="embed_success">Hidden Success</string>
+    <string name="text"> Click to open text </string>
+    <string name="audio"> Click to open audio </string>
+    <string name="video"> Click to open video </string>
+    <string name="image"> Click to open image </string>
+    <string name="please_click_openfile">Extraction Result:</string>
+    <string name="not_support_audio">Please select the supported audio formats file!</string>
+    <string name="not_support_video">Please select the supported video formats file!</string>
+    <string name="not_support_image">Please select the supported image formats file!</string>
+    <string name="pack_isweight">The Hidden file is too large, operation failed!</string>
+    
+    <string name="title_activity_about">About</string>
+    <string name="aboutapp_content">Android版适用于Android2.2及以上固件，如在其他手机上使用本软件，对于出现的任何问题，成都宇飞信息工程有限责任公司（以下简称宇飞）不承担责任。本软件是由宇飞公司开发，非经宇飞或宇飞授权开发并正式发布的其他任何由本软件衍生的软件均属非法，下载、安装、使用此类软件，将可能导致不可预知的风险，由此产生的一切法律责任与纠纷一概与宇飞无关。\n\n用户不得利用本软件发表、传送、传播、存储违反国家法律、危害国家安全、祖国统一、社会稳定的内容，或任何不当的、侮辱诽谤的、淫秽的、暴力的及任何违反国家法律法规政策的内容；不得制造虚假身份以误导、欺骗或利用本软件批量发表、传送、传播广告信息。否则，宇飞有权终止、限制用户使用该软件的功能。\n\n用户分享，发送本软件生成的图像时，产生的隐私及安全问题与本软件无关。\n\n宇飞公司官网地址：http://www.yufei.cc/</string>
+    
+    
+    <string name="file_no_support">This file format is not supported!</string>
+    <string name="file_markness">This file contains the watermark, not to support multiple embedded!</string>
+    <string name="input_filename_hint">Please enter the name of the file to be saved</string>    
+    <string name="input_filename_propmt">Default file save name:</string>
+    <string name="explorer">Explorer</string>
+    <string name="dialog_read_from_dir">Open from dir</string>
+        <string name="action_settings">Settings</string>
+    
+    <!-- the strings for AboutActivity. Create at 09.05 by KB -->
+    <string name="btn_help">Help</string>
+    <string name="btn_copyright">Copyright</string>
+    <string name="title_activity_help">About</string>
+    <string name="toast_toomanyfiles">The number of hidden files are reach the maximum threshold value, can not add hidden files!</string>
+    
+    <!-- 偏光水印提取 -->
+    <string name="btn_filter">Yufei Watermark Extract</string>
+    <string name="btn_savefilterimageas_text">Save As</string>
+    <string name="btn_cancel_text">Cancel</string>
+    
+    
+    </resources>

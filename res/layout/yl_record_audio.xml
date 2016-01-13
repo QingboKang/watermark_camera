@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/albumsharevideo_icon"
+    >	  
+ <TextView android:id="@+id/luyin_path"
+        	  android:layout_width="wrap_content"
+        	  android:layout_height="wrap_content"
+        	  android:textColor="#ffffff"
+        	  android:textSize="15dp"
+        	  android:layout_marginTop="10dp"/>
+
+   <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:layout_marginBottom="5px"
+    >
+        
+        <ImageView 
+               android:layout_width="20dip"
+               android:layout_height="40dip"
+               android:src="@drawable/voicesearch_loading001"
+               android:layout_weight="1"
+            />
+	    <Button
+	        android:id="@+id/record"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/press_start_recoding"
+	        android:layout_weight="6"
+	        android:background="@drawable/bt_audio_background"
+	        android:layout_marginRight="20px"
+	         />
+	
+	  <!-- <Button
+	        android:id="@+id/player"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/paly_audio"
+	        android:background="@drawable/bt_audio_background"
+	         /> -->  
+   </LinearLayout>
+</RelativeLayout>
